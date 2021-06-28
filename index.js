@@ -6,7 +6,7 @@ class Drumkit {
     this.snareAudio = document.querySelector(".snare-sound");
     this.hihatAudio = document.querySelector(".hihat-sound");
     this.index = 0;
-    this.bpm = 200;
+    this.bpm = 325;
     this.isPlaying = null;
     this.selects = document.querySelectorAll("select");
     this.muteBtns = document.querySelectorAll(".mute");
